@@ -1,1 +1,23 @@
-The integration of Radial Basis Function (RBF) networks as a sophisticated defense mechanism to fortify deep learning models against adversarial attacks, with a detailed examination provided in the study, \href{https://arxiv.org/abs/2010.09119}{FADER: Fast Adversarial Example Rejection.} Given the pronounced susceptibility of deep neural networks (DNNs) to these malicious intrusions, the research presents a groundbreaking approach by embedding RBF layers within standard network designs. This endeavour aims to create a robust shield against sophisticated adversarial permutations. Neural networks are susceptible to adversarial attacks, where slight modifications to input samples lead to incorrect predictions. To rigorously validate the efficacy of the proposed RBF network deployment, comprehensive experiments were conducted on two benchmark datasets: MNIST and CIFAR10. These evaluations span white-box and black-box attack scenarios, offering a holistic view of the RBF networks’ defensive capabilities under diverse adversarial conditions. We implement \href{https://arxiv.org/abs/2202.02236}{Pixle: a fast and effective black-box attack based on rearranging pixels}, a novel black-box adversarial attack capable of successfully perturbing a high percentage of samples by rearranging a small number of pixels within the input image. Pixle demonstrates effectiveness across various datasets and models, requiring minimal iterations and resulting in imperceptible changes to the human eye. To assess the impact of Pixle, we employ FADER, a defense mechanism designed to detect and reject adversarial examples. Through this systematic investigation, the thesis illuminates the vulnerabilities inherent in contemporary DNNs and positions RBF networks as potent countermeasures to adversarial manoeuvres, thereby contributing significantly to the discourse on cybersecurity in the realm of artificial intelligence. Our findings shed light on the interplay between adversarial attacks and defense mechanisms, offering insights into future research directions and the optimization of detection strategies for enhanced robustness in deep neural networks.
+## FADER: Fast Adversarial Example Rejection 
+The repository contains a SecML and PyTorch implementation of the paper:\
+[FADER: Fast Adversarial Example Rejection](https://arxiv.org/abs/2010.09119)
+
+### **Main Dependencies**
+$\bullet$ torch==2.1.1+cu121\
+$\bullet$ secml==0.15.6\
+$\bullet$ pandas==2.1.3\
+$\bullet$ numpy==1.24.1
+
+### Datasets
+$\bullet$ CIFAR10\
+$\bullet$ MNIST
+
+### Model architecture and attack implemented
+mnist_functions.py\
+cifar10_functions.py
+
+### Training
+The training files are training_mnist_main.py and training_cifar10_main.py
+
+### Implementation
+The execution files are implementation_mnist_main.py and implementation_cifar10_main.py
