@@ -4,7 +4,7 @@ The repository contains a SecML and PyTorch implementation of the paper:\
 
 ### **Main Dependencies**
 $\bullet$ torch==2.1.1+cu121\
-$\bullet$ pytorch==1.7.1
+$\bullet$ pytorch==1.7.1\
 $\bullet$ torchvision==0.8.2\
 $\bullet$ secml==0.15.6\
 $\bullet$ pandas==2.1.3\
@@ -22,4 +22,4 @@ cifar10_functions.py
 The training files are training_mnist_main.py and training_cifar10_main.py
 
 ### Implementation
-The execution files are implementation_mnist_main.py and implementation_cifar10_main.py
+The execution files are mnist_implementation.py and cifar10_implementation.py
