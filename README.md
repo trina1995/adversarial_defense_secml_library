@@ -4,6 +4,8 @@ The repository contains a SecML and PyTorch implementation of the paper:\
 
 ### **Main Dependencies**
 $\bullet$ torch==2.1.1+cu121\
+$\bullet$ pytorch==1.7.1
+$\bullet$ torchvision==0.8.2\
 $\bullet$ secml==0.15.6\
 $\bullet$ pandas==2.1.3\
 $\bullet$ numpy==1.24.1
